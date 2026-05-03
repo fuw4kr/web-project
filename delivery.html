@@ -12,7 +12,7 @@
     <header>
         <div class="container header-content">
             <div class="logo-block">
-                <img src="https://via.placeholder.com/90x90/4A3320/FDF8F0?text=R&C" alt="Логотип Rhythm and Chord" width="90" height="90">
+                <img src="music key.png" alt="Логотип Rhythm and Chord" width="90" height="90">
                 <div class="logo-text">
                     <h1>Rhythm</h1>
                     <h2>& Chord</h2>
@@ -80,11 +80,23 @@
 
     <div class="feedback-modal">
         <button class="close-btn">✖</button>
-        <form class="form-content">
+        <form class="form-content" novalidate>
             <h2>Зворотний зв'язок</h2>
-            <div class="input-group"><label>Ім'я *</label><input type="text" required></div>
-            <div class="input-group"><label>Телефон *</label><input type="tel" required></div>
-            <div class="input-group error"><label>Повідомлення *</label><textarea required></textarea><span class="error-msg">Поле обов'язкове</span></div>
+            <div class="input-group">
+                <label>Ім'я *</label>
+                <input type="text" required>
+                <span class="error-msg">Поле обов'язкове</span>
+            </div>
+            <div class="input-group">
+                <label>Телефон *</label>
+                <input type="tel" required>
+                <span class="error-msg">Поле обов'язкове</span>
+            </div>
+            <div class="input-group">
+                <label>Повідомлення *</label>
+                <textarea required></textarea>
+                <span class="error-msg">Поле обов'язкове</span>
+            </div>
             <button type="submit" class="submit-btn">Надіслати</button>
         </form>
     </div>
