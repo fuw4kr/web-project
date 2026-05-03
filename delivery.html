@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Доставка та оплата | Rhythm & Chord</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@600;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay"></div>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo-block">
+                <img src="https://via.placeholder.com/90x90/4A3320/FDF8F0?text=R&C" alt="Логотип Rhythm and Chord" width="90" height="90">
+                <div class="logo-text">
+                    <h1>Rhythm</h1>
+                    <h2>& Chord</h2>
+                </div>
+            </div>
+            <div class="contact-block">
+                <p class="custom-phone">+38 (044) 123-45-67</p>
+                <a href="#" class="feedback-btn">Зворотний зв'язок</a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul class="menu">
+                <li><a href="home.html">Головна</a></li>
+                <li class="separator">|</li>
+                <li><a href="index.html">Каталог</a></li>
+                <li class="separator">|</li>
+                <li><a href="delivery.html" class="active">Доставка та оплата</a></li>
+                <li class="separator">|</li>
+                <li><a href="#">Контакти</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="content">
+        <div class="container info-section">
+            <h2 class="section-title">Способи доставки інструментів</h2>
+            <p>Ми дбаємо про те, щоб ваш новий інструмент доїхав до вас у цілісності. Кожна гітара чи синтезатор надійно пакується у фірмове протиударне пакування. Оберіть зручний для вас спосіб доставки:</p>
+            
+            <div class="delivery-grid">
+                <div class="delivery-card">
+                    <img src="https://img.icons8.com/color/100/in-transit--v1.png" alt="Нова Пошта" width="80" height="80">
+                    <h3>Нова Пошта</h3>
+                    <p>Доставка у відділення або кур'єром НП. Відправка в день замовлення. Термін: 1-2 дні.</p>
+                    <span class="price-tag">від 100 грн</span>
+                </div>
+                <div class="delivery-card">
+                    <img src="https://img.icons8.com/color/100/post-office.png" alt="Укрпошта" width="80" height="80">
+                    <h3>Укрпошта</h3>
+                    <p>Доставка у відділення по всій території України. Термін доставки: 3-5 днів.</p>
+                    <span class="price-tag">від 50 грн</span>
+                </div>
+                <div class="delivery-card">
+                    <img src="https://img.icons8.com/color/100/box.png" alt="Кур'єр" width="80" height="80">
+                    <h3>Кур'єр по Києву</h3>
+                    <p>Адресна доставка до дверей у зручний для вас час нашим особистим кур'єром.</p>
+                    <span class="price-tag">Безкоштовно від 5000 грн</span>
+                </div>
+            </div>
+
+            <h2 class="section-title">Оплата</h2>
+            <p>Оплатити замовлення ви можете онлайн карткою Visa/Mastercard, готівкою при отриманні (накладений платіж) або ж оформити розстрочку від ПриватБанку / Monobank.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-info"><p>© 2024 Rhythm & Chord</p><p>Ваш надійний музичний партнер</p></div>
+            <ul class="footer-menu"><li><a href="home.html">Головна</a></li><li><a href="index.html">Каталог</a></li><li><a href="delivery.html">Доставка</a></li></ul>
+            <div class="footer-contacts"><p>м. Київ, вул. Музична, 1</p><p>info@rhythm-chord.ua</p></div>
+        </div>
+    </footer>
+
+    <div class="feedback-modal">
+        <button class="close-btn">✖</button>
+        <form class="form-content">
+            <h2>Зворотний зв'язок</h2>
+            <div class="input-group"><label>Ім'я *</label><input type="text" required></div>
+            <div class="input-group"><label>Телефон *</label><input type="tel" required></div>
+            <div class="input-group error"><label>Повідомлення *</label><textarea required></textarea><span class="error-msg">Поле обов'язкове</span></div>
+            <button type="submit" class="submit-btn">Надіслати</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
